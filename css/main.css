@@ -1,0 +1,297 @@
+* {
+	box-sizing: border-box;
+}
+
+/* General */
+body,
+html {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	font-family: 'Inter', sans-serif;
+}
+
+hr {
+	border: 2px solid #000;
+	width: 100%;
+	font-weight: 900;
+}
+
+a {
+	color: #121229;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+a:hover {
+	color: #121229;
+	font-size: 110%;
+}
+
+a:active {
+	color: #121229;
+}
+
+/* Utilities */
+.dark-blue {
+	color: #121229;
+}
+
+.dark-blue-bg {
+	background-color: #121229;
+}
+
+.lilac {
+	background-color: #e1e0ff;
+}
+
+.orange {
+	background-color: #ffe4b0;
+}
+
+.purple {
+	background-color: #e1e0ff;
+}
+
+.lightblue {
+	background-color: #c3edff;
+}
+
+.lighterblue {
+	background-color: #e6f1ff;
+}
+
+.lighterlilac {
+	background-color: #f2eaff;
+}
+
+.blue_pill {
+	background-color: #121229;
+}
+
+.blue_pill:hover {
+	background-color: #121229;
+}
+
+.test_pic {
+	border-radius: 50%;
+}
+
+/* section 1 */
+.section_one {
+	padding: 3rem 1rem;
+}
+
+.section1_header {
+	background-image: url('../img/spiral-ring.png');
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-size: 70%;
+}
+
+/* section 2 */
+.section_two {
+	padding: 2rem 1rem 5rem 1rem;
+}
+
+.wrapper_bg {
+	border-radius: 15px;
+	padding: 1rem;
+	margin: 0.7rem 0rem;
+}
+
+/* section 3  */
+.section_three {
+	padding: 3rem 1rem;
+}
+
+/* section 4 */
+.section_four {
+	padding: 4rem 1rem;
+}
+
+.man-and-chart {
+	margin-top: 2.6rem;
+}
+
+/* section 5 */
+.section_five {
+	padding: 5rem 1rem;
+}
+
+/* section 6 */
+.section_six {
+	padding: 3rem 1rem;
+}
+
+.twitch {
+	color: #fff;
+	font-weight: 700;
+	text-shadow: 5px 5px 10px #9147ff;
+	width: fit-content;
+	-webkit-text-stroke: 1.4px #9147ff;
+}
+
+/* section 7 */
+.section_seven {
+	padding: 3rem 1rem;
+}
+
+/* section 8 */
+.section_eight {
+	padding: 3rem 1rem;
+}
+
+/* section 9 */
+.section_nine {
+	padding: 3rem 1rem;
+}
+
+/* section 10 */
+.section_ten {
+	padding: 3rem 1rem;
+}
+
+@media screen and (min-width: 500px) {
+	/* section 1 */
+	.section_one {
+		padding: 4rem 1rem;
+	}
+
+	.img-woman-chart {
+		height: 70vh;
+	}
+
+	/* section 2 */
+	.section_two {
+		padding: 3rem 1rem 5rem 1rem;
+	}
+
+	.wrapper_bg {
+		margin: 1rem 0rem;
+	}
+
+    /* section 6  */
+    .pill_six {
+        padding: 1rem 2rem;
+    }
+}
+
+@media  (min-width: 500px) and (max-width: 600px) {
+    .ext {
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+@media  (min-width: 700px) {
+    /* section 1 */
+	.img-woman-chart {
+		height: 40vh;
+	}
+
+    .section_three_hero_h2 {
+		width: 67%;
+		word-wrap: break-word;
+		margin: 0.5rem auto;
+	}
+
+	.section_three_hero_p {
+		width: 65%;
+		word-wrap: break-word;
+		margin: 1rem auto;
+	}
+
+    /* section 6  */
+    .pill_six {
+        padding: .7rem 1rem;
+    }
+
+    /* section 8 */
+	.section_eight_hero_h1 {
+		width: 60%;
+		word-wrap: break-word;
+		margin: 0.5rem auto;
+		font-weight: 500;
+	}
+}
+
+@media  (min-width: 700px) and (max-width: 900px) {
+    .section1_header {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+	/* section 1 */
+	.section_one {
+		padding: 5rem 0 6rem 0;
+	}
+
+    .img-woman-chart {
+		height: 70vh;
+	}
+
+	/* section 2 */
+	.section_two {
+		padding: 4rem 0 7rem 0;
+	}
+
+	.wrapper_bg {
+		margin: 0.5rem 1.9rem;
+	}
+
+	/* section 3  */
+	.section_three {
+		padding: 6rem 0 7rem 0;
+	}
+
+	.section_three_hero_h2 {
+		width: 47%;
+	}
+
+	.section_three_hero_p {
+		width: 55%;
+	}
+
+	/* section 4 */
+	.section_four {
+		padding: 6rem 0 7rem 0;
+	}
+
+	/* section 5 */
+	.section_five {
+		padding: 6rem 0 7rem 0;
+	}
+
+	/* section 6 */
+	.section_six {
+		padding: 6rem 0 7rem 0;
+	}
+
+    .pill_six {
+        padding: 1rem 1.3rem;
+    }
+
+	/* section 7 */
+	.section_seven {
+		padding: 6rem 0 7rem 0;
+	}
+
+	/* section 8 */
+	.section_eight {
+		padding: 6rem 0 7rem 0;
+	}
+
+	/* section 9 */
+	.section_nine {
+		padding: 6rem 0 9rem 0;
+	}
+
+	/* section 10 */
+	.section_ten {
+		padding: 4rem 0 6rem 0;
+	}
+}
